@@ -1,7 +1,15 @@
 import java.util.List;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * Demonstrates employee registration and attendance tracking operations.
+ */
 public class Main {
+  /**
+   * Runs the attendance management examples and prints their results.
+   *
+   * @param args command-line arguments (not used)
+   */
   public static void main(String[] args) {
     AttendanceManager attendanceManager = new AttendanceManager();
     String employeeId = "E001";
